@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="4215" started-at="2021-08-21T23:29:47 EDT" finished-at="2021-08-21T23:29:51 EDT">
+    <groups>
+    </groups>
+    <test name="Petstore_Swagger_VirginPulse" duration-ms="4215" started-at="2021-08-21T23:29:47 EDT" finished-at="2021-08-21T23:29:51 EDT">
+      <class name="ApiTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ApiTest@192b07fd]" name="setUp" is-config="true" duration-ms="32" started-at="2021-08-21T23:29:47 EDT" finished-at="2021-08-21T23:29:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createPet()[pri:1, instance:ApiTest@192b07fd]" name="createPet" duration-ms="2804" started-at="2021-08-21T23:29:47 EDT" description="creating a pet with a unique id" finished-at="2021-08-21T23:29:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPet -->
+        <test-method status="PASS" signature="uploadImageToPet()[pri:2, instance:ApiTest@192b07fd]" name="uploadImageToPet" duration-ms="568" started-at="2021-08-21T23:29:50 EDT" description="upload an image to the new pet" finished-at="2021-08-21T23:29:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadImageToPet -->
+        <test-method status="PASS" signature="searchNewPet()[pri:3, instance:ApiTest@192b07fd]" name="searchNewPet" duration-ms="384" started-at="2021-08-21T23:29:51 EDT" description="search for the new pet" finished-at="2021-08-21T23:29:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchNewPet -->
+        <test-method status="PASS" signature="searchSoldPets()[pri:4, instance:ApiTest@192b07fd]" name="searchSoldPets" duration-ms="369" started-at="2021-08-21T23:29:51 EDT" description="search for the sold pets" finished-at="2021-08-21T23:29:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSoldPets -->
+      </class> <!-- ApiTest -->
+    </test> <!-- Petstore_Swagger_VirginPulse -->
+  </suite> <!-- Default Suite -->
+</testng-results>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PetStore Regression Suite">
+    <test name="PetStore All Test">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="ApiTest"/>
+            <class name="PetStorePageTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
