@@ -1,12 +1,12 @@
 package utilities;
 
-import base.BaseC;
+import base.BaseCls;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class ElementUtils extends BaseC {
+public class ElementUtils extends BaseCls {
     WebDriver driver;
     WebDriverWait wait;
     public ElementUtils(WebDriver driver) {

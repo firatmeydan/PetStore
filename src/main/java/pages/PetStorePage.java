@@ -1,13 +1,13 @@
 package pages;
 
-import base.BaseC;
+import base.BaseCls;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utilities.ElementUtils;
 
 import java.util.Properties;
 
-public class PetStorePage extends BaseC {
+public class PetStorePage extends BaseCls {
     Properties prop;
     WebDriver driver;
     ElementUtils elUtils;

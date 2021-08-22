@@ -9,11 +9,11 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class BaseC {
+public class BaseCls {
     public Properties prop;
     public WebDriver driver;
 
-    public BaseC() {
+    public BaseCls() {
         prop = initProperties();
     }
 

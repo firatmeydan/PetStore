@@ -1,4 +1,4 @@
-import base.BaseC;
+import base.BaseCls;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -10,14 +10,14 @@ import java.util.Properties;
 
 public class PetStorePageTest {
 
-    BaseC base;
+    BaseCls base;
     Properties prop;
     WebDriver driver;
     PetStorePage petStorePage;
 
     @BeforeTest
     public void setUp() {
-        base =new BaseC();
+        base =new BaseCls();
         prop= base.initProperties();
         driver= base.initDriver();
         petStorePage= new PetStorePage(driver,prop);
